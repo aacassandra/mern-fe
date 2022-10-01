@@ -1,0 +1,30 @@
+.home{
+  width: 400px;
+  @apply bg-white border border-gray-600;
+  .box1{
+    width: 100%;
+    height: 50px;
+    @apply flex flex-row;
+    .sb {
+      @apply flex-grow px-0 flex justify-center items-center;
+      input {
+        height: 40px;
+        @apply border border-gray-300;
+      }
+    }
+  }
+  .box2{
+    width: 100%;
+    height: 50px;
+    @apply flex flex-row;
+    .operation {
+      @apply bg-gray-100 flex flex-grow items-center justify-center border border-gray-300 hover:bg-gray-300 cursor-pointer;
+    }
+    .operation-reset {
+      @apply flex flex-grow items-center justify-center border border-gray-400 bg-red-200 hover:bg-red-300 cursor-pointer;
+    }
+    .operation-enter {
+      @apply flex flex-grow items-center justify-center border border-gray-400 bg-green-400 hover:bg-green-500 cursor-pointer;
+    }
+  }
+}

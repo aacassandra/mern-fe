@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  @apply bg-blue-500;
+
+  .logo-app {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+  }
+
+  .menu-item {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+  }
+}
